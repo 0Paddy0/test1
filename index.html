@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Multiple Window 3D Scene – Launcher</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="launcher">
+  <main>
+    <h1>Multiple Window 3D Scene</h1>
+    <p>Öffnet mehrere Browser-Fenster, die gemeinsam eine zusammenhängende 3D/Shader-Szene rendern.</p>
+    <form id="cfg">
+      <label>Fensteranzahl
+        <input id="count" type="number" min="2" max="6" step="1" value="2" />
+      </label>
+      <label>Breite pro Fenster (px)
+        <input id="w" type="number" min="320" step="10" value="640" />
+      </label>
+      <label>Höhe pro Fenster (px)
+        <input id="h" type="number" min="240" step="10" value="360" />
+      </label>
+      <button id="launch" type="submit">Starten</button>
+      <button id="closeAll" type="button">Alle schließen</button>
+    </form>
+    <p class="hint">Hinweis: Popups müssen erlaubt sein. Am stabilsten in Chrome/Edge. Die Fenster werden nebeneinander angeordnet.</p>
+  </main>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

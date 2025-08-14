@@ -1,0 +1,11 @@
+*{box-sizing:border-box} :root{font:16px/1.5 system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+body{margin:0;background:#0b0d10;color:#e6edf3}
+.launcher main{max-width:800px;margin:7vh auto;padding:24px;border-radius:12px;background:#11151a;box-shadow:0 10px 30px rgba(0,0,0,.4)}
+h1{margin-top:0;font-size:1.8rem}
+form{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:20px 0}
+label{display:flex;flex-direction:column;font-size:.9rem;gap:6px}
+input{padding:10px;border:1px solid #2a323a;background:#0b0f14;color:#e6edf3;border-radius:8px}
+button{padding:12px 16px;border:0;border-radius:10px;background:#5b86ff;color:white;font-weight:600;cursor:pointer}
+button[type=button]{background:#293241}
+.hint{opacity:.8}
+.renderer #c{display:block;width:100vw;height:100vh}
